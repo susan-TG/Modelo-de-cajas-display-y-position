@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Ejercicio 3</title>
+<style media="screen" type="text/css">
+html, body {
+margin: 0;
+padding: 0;
+}
+
+/*Bandera españa*/
+.box {
+    border: 1px solid grey;
+    width: 500px;
+    height: 320px;
+}
+.espana {
+    background-color: red;
+    display: inline-block;
+    display: inline-block;
+    position: relative;
+   
+}
+
+.yellow-large {
+    width: 500px;
+    height: 140px;
+    margin-top: 80px;
+    background-color: yellow;
+    z-index: auto;
+    position: absolute;
+}
+
+/*Bandera dinamarca*/
+.dinamarca {
+    background-color: red;
+    display: inline-block;
+    position: relative;
+   
+   
+}
+.line-horizontal {
+    width: 500px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    top: 130px;
+    
+}
+.line-vertical {
+    width: 30px;
+    height: 320px;
+    background-color: white;
+    position: absolute;
+    left: 130px;
+}
+
+/*Bandera Emiratos Árabes*/
+
+.arabes{
+    background-color: white;
+    display: inline-block;
+    position: relative;
+   
+}
+.line-red {
+    background-color: red;
+    width: 100px;
+    height: 320px;
+    position: absolute;
+}
+.line-green {
+    background-color: green;
+    width: 400px;
+    height: 106px;
+    position: absolute;
+    right: 0;
+
+}
+.line-black {
+    background-color: black;
+    width: 400px;
+    height: 106px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+
+/*Bandera japon*/
+
+.japon {
+    background-color: white;
+    display: inline-block;
+    position: relative;
+   
+   
+}
+.circle-red {
+    background-color: red;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 140px;
+    top: 60px;   
+
+}
+
+/*Texto paises*/
+.container-dos {
+    position: absolute;
+    margin-top: 400px;
+}
+
+.box-title {
+    float: left;
+    margin-left: 40px;
+   
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="container">
+<div class="box-title">
+<div class="box espana">
+<div class="yellow-large"></div>
+</div>
+<div class="title">España</div> 
+</div>
+
+<div class="box-title">
+<div class="box dinamarca">
+<div class="line-horizontal"></div>
+<div class="line-vertical"></div>
+</div>
+<div class="title">Dinamarca</div>              
+</div>
+
+</div>
+
+<div class="container-dos">
+<div class="box-title">
+<div class="box arabes">
+<div class="line-red"></div>
+<div class="line-green"></div>
+<div class="line-black"></div>
+</div>
+<div class="title">Emiratos Árabes</div>
+</div>
+
+<div class="box-title">
+<div class="box japon">
+<div class="circle-red"></div>
+</div>
+<div class="title">Japón</div>
+</div>
+</div>
+
+
+</body>
+</html>
